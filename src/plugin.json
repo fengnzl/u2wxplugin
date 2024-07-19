@@ -1,0 +1,11 @@
+{
+  "publicComponents": {
+    "custom-button": "components/CustomButton/index"
+  },
+  "pages": {
+    "hello": "pages/hello/index",
+    "test": "pages/test/index",
+    "list": "pages/list/index"
+  },
+  "main": "common/main.js"
+}

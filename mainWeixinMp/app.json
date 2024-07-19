@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/myTest/index"
+  ],
+  "subPackages": [],
+  "usingComponents": {},
+  "plugins": {
+    "custom-plugin": {
+      "version": "dev",
+      "provider": "wxf59ca4c7f540c9ab",
+      "export": "exports/plugin.js"
+    }
+  }
+}

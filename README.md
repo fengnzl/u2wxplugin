@@ -7,12 +7,12 @@ npm install
 
 ### Compiles and hot-reloads for development
 ```
-npm run serve
+npm run dev:mp-weixin-pack-plugin
 ```
 
 ### Compiles and minifies for production
 ```
-npm run build
+npm run build:mp-weixin-pack-plugin 
 ```
 
 ### Customize configuration

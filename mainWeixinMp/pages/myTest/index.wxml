@@ -1,0 +1,19 @@
+<view class="test-page">
+  <text class="title">小程序插件调试页</text>
+  <view>
+    <text class="title">跳转到插件page index示例</text>
+    <navigator url="plugin-private://{{appid}}/pages/hello/index">
+      <button type="primary" size="mini">custom-plugin/pages/hello/index</button>
+    </navigator>
+  </view>
+  <view>
+    <text class="title">跳转到插件page test</text>
+    <navigator url="plugin-private://{{appid}}/pages/test/index">
+      <button type="primary" size="mini">custom-plugin/pages/test/index</button>
+    </navigator>
+  </view>
+  <view>
+    <text class="title">组件示例 button</text>
+    <custom-button/>
+  </view>
+</view>
